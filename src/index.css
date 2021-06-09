@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f4fa;
+}
+
+.main-page-content {
+  margin-left: 300px;
+  min-height: calc(100vh - 75px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 16px;
+}
+
+.MuiButton-root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MuiButton-label {
+  height: 100%;
+}
+/* .main-container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 135px;
+} */
+
+.MuiInputBase-input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MuiButtonBase-root .MuiButton-label {
+  text-transform: none;
+}
+
+@media (max-width: 768px) {
+  .main-page-content {
+    margin-left: 0;
+  }
+}
